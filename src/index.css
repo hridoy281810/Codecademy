@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.my-container {
+  @apply lg:w-[85%] w-[90%] mx-auto bg-white shadow px-6;
+}
+.g8 {
+ @apply text-gray-800
+}

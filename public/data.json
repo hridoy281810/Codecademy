@@ -1,0 +1,377 @@
+[
+  {
+      "id": 1,
+      "title": "Introduction to Python",
+      "category": "Programming",
+      "instructor": {
+          "name": "John Smith",
+          "bio": "Experienced Python developer with a passion for teaching.",
+          "email": "john.smith@example.com",
+         "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.5,
+      "courseContent": "This course provides a comprehensive introduction to Python programming. From basic syntax to advanced topics, you'll gain a solid foundation in Python.",
+      "syllabus": [
+          "Getting Started with Python",
+          "Variables and Data Types",
+          "Control Structures",
+          "Functions and Modules"
+      ],
+      "reviews": [
+          {
+              "user": "Alice",
+              "rating": 5,
+              "comment": "Fantastic course! I learned a lot and enjoyed the clear explanations."
+          },
+          {
+              "user": "Bob",
+              "rating": 4,
+              "comment": "Great for beginners. Could have more hands-on exercises."
+          }
+      ],
+      "lesson": [
+        {"title": "Lesson 1: Getting Started with Python", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 2: Variables and Data Types", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 3: Control Structures", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 4: Functions and Modules", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 5: Advanced Python Concepts", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 6: Python Best Practices", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 7: Python Projects Showcase", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 8: Debugging in Python", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 9: Python and Data Science", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 10: Python in Industry", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"}
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 49.99,
+      "students": 1200,
+      "favorite": "default"
+  },
+  {
+      "id": 2,
+      "title": "Web Development with JavaScript",
+      "category": "Web Development",
+      "instructor": {
+          "name": "Emily Johnson",
+          "bio": "Web developer with expertise in JavaScript and front-end technologies.",
+          "email": "emily.johnson@example.com",
+          "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.8,
+      "courseContent": "Learn the essentials of web development using JavaScript. Explore front-end frameworks and build interactive web applications.",
+      "syllabus": [
+          "Introduction to JavaScript",
+          "DOM Manipulation",
+          "AJAX and APIs",
+          "Front-End Frameworks"
+      ],
+      "reviews": [
+          {
+              "user": "Charlie",
+              "rating": 5,
+              "comment": "Excellent course! Emily explains complex concepts in a way that's easy to understand."
+          },
+          {
+              "user": "Diana",
+              "rating": 4.5,
+              "comment": "Great content, but the pace could be a bit slower for beginners."
+          }
+      ], "lesson": [
+        {"title": "Lesson 1: Introduction to JavaScript", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 2: DOM Manipulation", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 3: AJAX and APIs", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 4: Front-End Frameworks", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 5: Building Interactive Web Pages", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 6: JavaScript Libraries", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 7: Responsive Web Design with JavaScript", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 8: Advanced JavaScript Techniques", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 9: Real-Time Web Applications", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"},
+        {"title": "Lesson 10: JavaScript Best Practices", "videoUrl": "https://www.youtube.com/watch?v=XU0FYlY9_E0"}
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 59.99,
+      "students": 900,
+      "favorite": "default"
+  },
+  {
+      "id": 3,
+      "title": "Java Programming Basics",
+      "category": "Programming",
+      "instructor": {
+          "name": "Michael Davis",
+          "bio": "Java developer and instructor with a focus on fundamental programming concepts.",
+          "email": "michael.davis@example.com",
+          "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.2,
+      "courseContent": "Master the basics of Java programming, from syntax to object-oriented principles. Build your foundation for Java development.",
+      "syllabus": [
+          "Introduction to Java",
+          "Data Types and Operators",
+          "Control Flow",
+          "Object-Oriented Programming"
+      ],
+      "reviews": [
+          {
+              "user": "Eva",
+              "rating": 4,
+              "comment": "Solid introduction to Java. Michael's examples are clear and easy to follow."
+          },
+          {
+              "user": "Frank",
+              "rating": 4.5,
+              "comment": "Good course for beginners. Could include more real-world examples."
+          }
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 54.99,
+      "students": 1000,
+      "favorite": "default"
+  },
+  {
+      "id": 4,
+      "title": "Data Science with Python",
+      "category": "Data Science",
+      "instructor": {
+          "name": "Sophia Miller",
+          "bio": "Data scientist and Python enthusiast, passionate about turning data into insights.",
+          "email": "sophia.miller@example.com",
+          "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.7,
+      "courseContent": "Dive into the world of data science using Python. Learn data analysis, visualization, and machine learning techniques.",
+      "syllabus": [
+          "Introduction to Data Science",
+          "Data Analysis with Pandas",
+          "Data Visualization with Matplotlib",
+          "Machine Learning Basics"
+      ],
+      "reviews": [
+          {
+              "user": "George",
+              "rating": 5,
+              "comment": "Sophia's course is fantastic! I now feel confident working with data in Python."
+          },
+          {
+              "user": "Hannah",
+              "rating": 4.8,
+              "comment": "Great course for anyone interested in data science. Clear explanations and practical examples."
+          }
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 69.99,
+      "students": 800,
+      "favorite": "default"
+  },
+  {
+      "id": 5,
+      "title": "React.js Fundamentals",
+      "category": "Web Development",
+      "instructor": {
+          "name": "Daniel White",
+          "bio": "Front-end developer and React.js expert, passionate about building interactive user interfaces.",
+          "email": "daniel.white@example.com",
+          "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.6,
+      "courseContent": "Master the fundamentals of React.js and build modern, dynamic web applications. Learn about components, state, and props.",
+      "syllabus": [
+          "Introduction to React.js",
+          "Components and Props",
+          "State and Lifecycle",
+          "React Router"
+      ],
+      "reviews": [
+          {
+              "user": "Ivy",
+              "rating": 4.5,
+              "comment": "Daniel explains React.js concepts clearly. Great for beginners."
+          },
+          {
+              "user": "Jack",
+              "rating": 4.7,
+              "comment": "Excellent course! I now feel comfortable building React.js applications."
+          }
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 79.99,
+      "students": 700,
+      "favorite": "default"
+  },
+  {
+      "id": 6,
+      "title": "C++ Programming for Beginners",
+      "category": "Programming",
+      "instructor": {
+          "name": "Amanda Green",
+          "bio": "Software engineer with expertise in C++ development, dedicated to teaching programming fundamentals.",
+          "email": "amanda.green@example.com",
+          "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.4,
+      "courseContent": "Learn the basics of C++ programming, from variables to loops. Build a strong foundation for C++ development.",
+      "syllabus": [
+          "Introduction to C++",
+          "Variables and Data Types",
+          "Control Structures",
+          "Functions and Pointers"
+      ],
+      "reviews": [
+          {
+              "user": "Katie",
+              "rating": 4.2,
+              "comment": "A good starting point for learning C++. Amanda's examples are helpful."
+          },
+          {
+              "user": "Leo",
+              "rating": 4.6,
+              "comment": "Great course for beginners. Could include more hands-on coding exercises."
+          }
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 49.99,
+      "students": 900,
+      "favorite": "default"
+  },
+  {
+      "id": 7,
+      "title": "Machine Learning Basics",
+      "category": "Data Science",
+      "instructor": {
+          "name": "Alex Turner",
+          "bio": "Machine learning engineer and researcher, passionate about making machine learning accessible to everyone.",
+          "email": "alex.turner@example.com",
+          "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.9,
+      "courseContent": "Explore the fundamentals of machine learning. Understand algorithms, models, and applications in real-world scenarios.",
+      "syllabus": [
+          "Introduction to Machine Learning",
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Machine Learning Applications"
+      ],
+      "reviews": [
+          {
+              "user": "Mike",
+              "rating": 5,
+              "comment": "Alex's course is outstanding! I now have a solid understanding of machine learning concepts."
+          },
+          {
+              "user": "Nina",
+              "rating": 4.8,
+              "comment": "Fantastic introduction to machine learning. Clear explanations and practical examples."
+          }
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 89.99,
+      "students": 600,
+      "favorite": "default"
+  },
+  {
+      "id": 8,
+      "title": "Full Stack Development with Node.js",
+      "category": "Web Development",
+      "instructor": {
+          "name": "Brian Adams",
+          "bio": "Full-stack developer with a focus on Node.js and MongoDB. Enjoys building scalable and efficient web applications.",
+          "email": "brian.adams@example.com",
+          "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.3,
+      "courseContent": "Become a full-stack developer using Node.js. Learn to build server-side applications, APIs, and connect to databases.",
+      "syllabus": [
+          "Introduction to Full Stack Development",
+          "Node.js Basics",
+          "Express.js and RESTful APIs",
+          "Connecting to MongoDB"
+      ],
+      "reviews": [
+          {
+              "user": "Olivia",
+              "rating": 4.2,
+              "comment": "Good course for understanding full-stack development. Brian's explanations are clear."
+          },
+          {
+              "user": "Paul",
+              "rating": 4.4,
+              "comment": "Enjoyed learning Node.js and full-stack development. Could include more advanced topics."
+          }
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 99.99,
+      "students": 500,
+      "favorite": "default"
+  },
+  {
+      "id": 9,
+      "title": "Python for Data Analysis",
+      "category": "Data Science",
+      "instructor": {
+          "name": "Jessica Brown",
+          "bio": "Data analyst with expertise in Python. Enjoys exploring and analyzing data to extract meaningful insights.",
+          "email": "jessica.brown@example.com",
+          "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.6,
+      "courseContent": "Master the art of data analysis with Python. Learn to use libraries like Pandas and NumPy for effective data manipulation.",
+      "syllabus": [
+          "Introduction to Data Analysis with Python",
+          "Data Cleaning and Preparation",
+          "Statistical Analysis",
+          "Data Visualization"
+      ],
+      "reviews": [
+          {
+              "user": "Quincy",
+              "rating": 4.5,
+              "comment": "Great course for beginners in data analysis. Jessica's insights are valuable."
+          },
+          {
+              "user": "Rachel",
+              "rating": 4.7,
+              "comment": "Enjoyed learning Python for data analysis. Practical examples make it easy to understand."
+          }
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 74.99,
+      "students": 700,
+      "favorite": "default"
+  },
+ 
+    {
+      "id": 10,
+      "title": "Advanced JavaScript Concepts",
+      "category": "Web Development",
+      "instructor": {
+        "name": "Chris Wilson",
+        "bio": "Front-end developer specializing in advanced JavaScript concepts. Passionate about building high-performance web applications.",
+        "email": "chris.wilson@example.com",
+        "instructor_img" : "https://i.ibb.co/7vLG9HV/person2.png"
+      },
+      "rating": 4.7,
+      "courseContent": "Deepen your understanding of advanced JavaScript concepts. Explore closures, prototypes, and asynchronous programming.",
+      "syllabus": [
+        "Closures and Scope",
+        "Prototypes and Inheritance",
+        "Asynchronous JavaScript",
+        "ES6 and Modern JavaScript Features"
+      ],
+      "reviews": [
+        {
+          "user": "Sam",
+          "rating": 4.8,
+          "comment": "Chris is an excellent instructor! Advanced JavaScript concepts are explained with clarity."
+        },
+        {
+          "user": "Tina",
+          "rating": 4.6,
+          "comment": "Challenging course but worth it. Improved my understanding of JavaScript significantly."
+        }
+      ],
+      "image": "https://i.ibb.co/bbpRqhm/Vector-2646.jpg",
+      "price": 89.99,
+      "students": 400,
+      "favorite": "default"
+    }
+  ]
+  
