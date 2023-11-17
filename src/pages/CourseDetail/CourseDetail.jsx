@@ -10,7 +10,7 @@ const CourseDetail = () => {
     console.log(courses)
     const { id } = useParams();
     useEffect(() => {
-    fetch(`http://localhost:5000/course/${id}`)
+    fetch(` https://electra-poll-server-2pqs2aw2n-hridoy281810.vercel.app/course/${id}`)
     .then(res => res.json())
     .then(data => {
         console.log(data)

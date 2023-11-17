@@ -11,7 +11,7 @@ const auth = getAuth(app)
 const UseAxiosSecure = () => {
     const navigate = useNavigate()
     const { logOut } = useContext(AuthContext)
-    const axiosSecure = axios.create({ baseURL: 'http://localhost:5000' })
+    const axiosSecure = axios.create({ baseURL: ' https://electra-poll-server-2pqs2aw2n-hridoy281810.vercel.app' })
 
 
     const token = localStorage.getItem('electra-poll-access-token')

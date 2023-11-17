@@ -12,7 +12,7 @@ const GetInstructor = () => {
     queryKey: ["instructor", user],
     enabled: !loading,
     queryFn: async () => {
-      const res = await axios.get(`http://localhost:5000/users/${user?.email}`);
+      const res = await axios.get(` https://electra-poll-server-2pqs2aw2n-hridoy281810.vercel.app/users/${user?.email}`);
       const data = res.data;
       return data;
     },

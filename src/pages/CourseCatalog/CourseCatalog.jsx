@@ -9,7 +9,7 @@ const CourseCatalog = () => {
     const [minRating, setMinRating] = useState(0);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/all-course`)
+        fetch(` https://electra-poll-server-2pqs2aw2n-hridoy281810.vercel.app/all-course`)
             .then((res) => res.json())
             .then((data) => {
                 console.log(data);

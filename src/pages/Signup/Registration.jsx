@@ -35,7 +35,7 @@ import toast from 'react-hot-toast';
       }
       createUser(email, password)
       .then((res) => {
-        fetch(`http://localhost:5000/users`, {
+        fetch(` https://electra-poll-server-2pqs2aw2n-hridoy281810.vercel.app/users`, {
           method: 'POST',
           headers: {
             'content-type': 'application/json'

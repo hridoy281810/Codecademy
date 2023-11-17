@@ -61,7 +61,7 @@ const AuthProvider = ({ children }) => {
         setLoading(false);
         if (loggedUser) {
           const user = { email: loggedUser.email, name: loggedUser.displayName };
-          axios.post(`http://localhost:5000/jwt`, user).then((res) => {
+          axios.post(` https://electra-poll-server-2pqs2aw2n-hridoy281810.vercel.app/jwt`, user).then((res) => {
             localStorage.setItem('electra-poll-access-token', res.data.token);
           });
         } else {
